@@ -1,0 +1,10 @@
+applications:
+- path: target/JavaCloudantApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: apf-t1
+  host: apf-t1
+  disk_quota: 1024M
+  services:
+  - apf-t1-cloudantNoSQLDB
